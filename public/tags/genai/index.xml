@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GenAI on Abir Arsalane</title>
+    <link>http://localhost:1313/tags/genai/</link>
+    <description>Recent content in GenAI on Abir Arsalane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/tags/genai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced Text Analysis and Generation Project</title>
+      <link>http://localhost:1313/projects/advanced-current-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/advanced-current-project/</guid>
+      <description>I&amp;#39;m building an Advanced Text Analysis and Generation Project</description>
+    </item>
+    
+    <item>
+      <title>Building a Speech-to-Speech Chatbot for enviromental Education</title>
+      <link>http://localhost:1313/projects/ecoteach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/ecoteach/</guid>
+      <description>Building a Speech-to-Speech Chatbot for enviromental Education in a GenAI Hackathon.</description>
+    </item>
+    
+    <item>
+      <title>Building a Multimodal Generative AI Assistant</title>
+      <link>http://localhost:1313/projects/multimodal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/multimodal/</guid>
+      <description>Building a Multimodal Generative AI Assistant.</description>
+    </item>
+    
+    <item>
+      <title>Building a Speech-to-Speech Chatbot for enviromental Education</title>
+      <link>http://localhost:1313/blog/moroccoai-genai-hackathon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/moroccoai-genai-hackathon/</guid>
+      <description>Building a Speech-to-Speech Chatbot for enviromental Education in a GenAI Hackathon.</description>
+    </item>
+    
+    <item>
+      <title>Nights And Weekends program by BuildSpace</title>
+      <link>http://localhost:1313/blog/n-and-w/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/n-and-w/</guid>
+      <description>I got into nights and weekends program by BuildSpace</description>
+    </item>
+    
+    <item>
+      <title>Data Scientist Intern</title>
+      <link>http://localhost:1313/experience/ob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/experience/ob/</guid>
+      <description>Orange Business</description>
+    </item>
+    
+  </channel>
+</rss>
