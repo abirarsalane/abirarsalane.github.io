@@ -30,11 +30,11 @@ jobs:
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cp -R public/* ${GITHUB_WORKSPACE}/built-site/
           cd ${GITHUB_WORKSPACE}/built-site
           git add .
+          git config user.name 'abirarsalane'
+          git config user.email 'abir.arsalane1@gmail.com'
           git commit -m 'Updated site'
-          git push
+          git push          
