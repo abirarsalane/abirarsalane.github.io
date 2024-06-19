@@ -1,9 +1,9 @@
 name: Publish to GH Pages
+
 on:
   push:
     branches:
       - main
-  pull_request:
 
 jobs:
   deploy:
@@ -14,27 +14,27 @@ jobs:
         with:
           submodules: true
 
-      - name: Checkout destination
-        uses: actions/checkout@v3
-        if: github.ref == 'refs/heads/main'
+      - uses: actions/cache@v3  # Cache Hugo binary (optional)
         with:
-          ref: gh-pages
-          path: built-site
+          path: ${{ runner.temp }}/hugo
+          key: ${{ runner.os }}-hugo-${{ hashFiles('**/hugo.tar.gz') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-
 
       - name: Setup Hugo
         run: |
           curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.110.0/hugo_extended_0.110.0_linux-amd64.tar.gz'
-          tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo          
+          tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo
+
       - name: Build
         run: ${RUNNER_TEMP}/hugo
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
         run: |
-          cp -R public/* ${GITHUB_WORKSPACE}/built-site/
-          cd ${GITHUB_WORKSPACE}/built-site
-          git add .
+          cp -R public/* ./  # Copy to current directory instead of built-site
           git config user.name 'abirarsalane'
           git config user.email 'abir.arsalane1@gmail.com'
+          git add .
           git commit -m 'Updated site'
-          git push          
+          git push origin gh-pages  # Push to gh-pages branch on the same repository
