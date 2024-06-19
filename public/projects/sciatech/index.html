@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -9,18 +9,18 @@
 <meta name="keywords" content="AI, IOT, AWS, AWS, EY, Innovation, Python, Challenge, ML, DL, Recommendations System, models">
 <meta name="description" content="I solved a problem that 600&#43; MILLION people suffer from using AI">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/projects/sciatech/">
+<link rel="canonical" href="https://abirarsalane.github.io/projects/sciatech/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.2b833c6baa7a96407c2417c7a4049985b42c21cccc2472abf4603967eafd2273.css" integrity="sha256-K4M8a6p6lkB8JBfHpASZhbQsIczMJHKr9GA5Z&#43;r9InM=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.2eadbb982468c11a433a3e291f01326f2ba43f065e256bf792dbd79640a92316.js" integrity="sha256-Lq27mCRowRpDOj4pHwEybyukPwZeJWv3ktvXlkCpIxY="
     onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://abirarsalane.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://abirarsalane.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://abirarsalane.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://abirarsalane.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://abirarsalane.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/sciatech/">
+<link rel="alternate" hreflang="en" href="https://abirarsalane.github.io/projects/sciatech/">
 <noscript>
     <style>
         #theme-toggle,
@@ -63,13 +63,13 @@
 <meta property="og:title" content="AI connected medical insoles" />
 <meta property="og:description" content="I solved a problem that 600&#43; MILLION people suffer from using AI" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/projects/sciatech/" />
-<meta property="og:image" content="http://localhost:1313/projects/SciaTech/SciaTech-logo.jpg" /><meta property="article:section" content="projects" />
+<meta property="og:url" content="https://abirarsalane.github.io/projects/sciatech/" />
+<meta property="og:image" content="https://abirarsalane.github.io/projects/SciaTech/SciaTech-logo.jpg" /><meta property="article:section" content="projects" />
 
 
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/projects/SciaTech/SciaTech-logo.jpg" />
+<meta name="twitter:image" content="https://abirarsalane.github.io/projects/SciaTech/SciaTech-logo.jpg" />
 <meta name="twitter:title" content="AI connected medical insoles"/>
 <meta name="twitter:description" content="I solved a problem that 600&#43; MILLION people suffer from using AI"/>
 
@@ -83,13 +83,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Projects",
-      "item": "http://localhost:1313/projects/"
+      "item": "https://abirarsalane.github.io/projects/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "AI connected medical insoles",
-      "item": "http://localhost:1313/projects/sciatech/"
+      "item": "https://abirarsalane.github.io/projects/sciatech/"
     }
   ]
 }
@@ -107,18 +107,18 @@
   "articleBody": "Introduction The project Scia-Tech is a project combining the power of two powerful technologies: AI and IOT. Scia-Tech’s smart insoles are designed to enhance the user’s daily life. These smart insoles not only track your physical activities, but also offer a unique solution for individuals suffering from sciatica. By closely monitoring their walking patterns, sitting habits, heavy lifting, intense workouts, posture, and any movement. Scia-Tech aims to identify behaviors that may trigger sciatica pain, allowing you to take proactive steps to manage and mitigate discomfort.\nDeeper dive Scia-Tech offers:\nSensor Technology: It provides cutting-edge sensor technology to revolutionize pain management and improve health. Data Analysis and Machine Learning: Collected data from the sensors is processed and the models predict the movement patterns and postures, then this output is fed to other models to forecast potential pain triggers before they strike. The recommendation system then provides personalized insights, guiding the user towards a life free from discomfort. Personal Space: All of this information and more is sent to the user’s account on the mobile application. The user can find reports, get notifications, report pain manually, manage their profile, see the timer predicting when sciatica pain may occur. Technical Aspect The ESP32, equipped with our sensors, sends real-time data to AWS IoT Core using MQTT protocol.\nThis raw data undergoes transformation using ML and DL models to predict position,posture and expected sciatica pain onset.\nWith personal data from the mobile app (from the user’s account including age, gender, weight, height..), real-time pain reports (from the user reporting they’re currently experiencing sciatica pain), and continuous IoT data streaming (used to predict the posture, position, movement and any excessive weight lifted), we create personalized AI-generated recommendations crafted specifically to you.\nLet’s break it down - Scia-Tech’s system, powered by cloud-based microservices, efficiently manages batch oriented workflows and streaming data to process it and generate the adequate outputs.\nPersonalized recommendations mean the system learns from the user’s unique data, not only giving you tailored guidance but also improving our general AI recommendation system.\n1. Input Data From the mobile application: When creating their account, the user enters the following information that we take into consideration when training the models. These inputs are: Age, Gender, Weight, Height.\nFrom the sensors: The insoles are equipped with different sensors including: ESP32 microcontroller,FSR01 load cell and MPU6050 Sensor,\nMPU: Sx, Sy, Sz, Qx, Qy, Qz, Ww, FPS (for each feet) Pressure: P0, P1, P2, P3, P4 (for each feet) 2. How it works Data Generation and Research Having worked on an innovative project, finding data to train the models was pretty challenging. I couln’t find any data for movement, activity or posture prediction from sensors installed in insoles. I couldn’t even find data collected the sensors we had combined. The unique combination of sensors in insoles to predict pain made finding the data a real obstacle, especially free and open source data. Collecting data from hospitals wasn;t an option either because it’s confidential. The solution was generating my own dataset and that’s exactly was I did. I generated a dataset of douzains of people using the insoles in different positions and postures, doing various activities such as walking, sitting, running, jumping, lifting heavy weights,… I worked alongside a doctor, I got all the information necessary and, throught weekly meetings, kept iterating my models, feature engineering and experimenting to increase the performance. The results can never be perfect because in the medical field it’s very hard to predict the future because nature cannot be predicted, people are all different and unique and no case is like the other. The goal was not to get perfect results but to increase the probablities accuracy based on all the elements we could have. More data could’ve been beneficial but the goal was to implement the project using insoles and insoles only because that was our innovative approach. This project required a lot of research, from domain research about sciatica, medical conditions, exceptions, and parameters, to technical research when deciding on the right models, the right features, reading similar research papers and more.\nThe pipeline The ESP32, equipped with our sensors, sends real-time data to AWS IoT Core using MQTT protocol. This raw data undergoes transformation first using AWS Lambda functions for pre-processing tasks, distribution of inputs into different databases such as AWS S3 and AWS DynamoDB, and posture and movement prediction using an ML pre-trained model stored in a Lambda function. The processed data is then ingested as an input of the sciatica pain predictive model using AWS SageMaker. The outputs are then sent to our mobile application for display.\n3. Output Data The output of this project is:\nPain Prediction: The app features AI technology integrated with smart insole data to display a timer predicting when sciatica pain may occur. You can also manually log pain incidents, specifying whether they occurred during sitting, standing, or heavy activity. Reports: Access daily, weekly, and historical reports of your activities and pain incidents. Notifications: Receive reminders and notifications to help you manage your daily routines and avoid pain triggers. Profile Management: Update and modify your profile information as needed. ",
   "wordCount" : "854",
   "inLanguage": "en",
-  "image":"http://localhost:1313/projects/SciaTech/SciaTech-logo.jpg","datePublished": "0001-01-01T00:00:00Z",
+  "image":"https://abirarsalane.github.io/projects/SciaTech/SciaTech-logo.jpg","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/projects/sciatech/"
+    "@id": "https://abirarsalane.github.io/projects/sciatech/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Abir Arsalane",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
+      "url": "https://abirarsalane.github.io/favicon.ico"
     }
   }
 }
@@ -140,7 +140,7 @@
 <header class="header sticky-header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Abir Arsalane (Alt + H)">Abir Arsalane</a>
+            <a href="https://abirarsalane.github.io/" accesskey="h" title="Abir Arsalane (Alt + H)">Abir Arsalane</a>
             <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -168,32 +168,32 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="Home">
+                <a href="https://abirarsalane.github.io/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/blog" title="Blog">
+                <a href="https://abirarsalane.github.io/blog" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects" title="Projects">
+                <a href="https://abirarsalane.github.io/projects" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/experience" title="Experience">
+                <a href="https://abirarsalane.github.io/experience" title="Experience">
                     <span>Experience</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/achievements" title="Achievements">
+                <a href="https://abirarsalane.github.io/achievements" title="Achievements">
                     <span>Achievements</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/search" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://abirarsalane.github.io/search" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -204,7 +204,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/projects/">Projects</a></div>
+    <div class="breadcrumbs"><a href="https://abirarsalane.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://abirarsalane.github.io/projects/">Projects</a></div>
     <h1 class="post-title">
       AI connected medical insoles
     </h1>
@@ -218,7 +218,7 @@ Oct 2023
 
 </div>
   </header> 
-<figure class="entry-cover"><img loading="lazy" src="http://localhost:1313/projects/SciaTech/SciaTech-logo.jpg" alt="">
+<figure class="entry-cover"><img loading="lazy" src="https://abirarsalane.github.io/projects/SciaTech/SciaTech-logo.jpg" alt="">
         
 </figure><div class="toc">
     <details >
@@ -317,24 +317,24 @@ This project required a lot of research, from domain research about sciatica, me
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/ai/">AI</a></li>
-      <li><a href="http://localhost:1313/tags/iot/">IOT</a></li>
-      <li><a href="http://localhost:1313/tags/aws/">AWS</a></li>
-      <li><a href="http://localhost:1313/tags/ey/">EY</a></li>
-      <li><a href="http://localhost:1313/tags/innovation/">Innovation</a></li>
-      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
-      <li><a href="http://localhost:1313/tags/challenge/">Challenge</a></li>
-      <li><a href="http://localhost:1313/tags/ml/">ML</a></li>
-      <li><a href="http://localhost:1313/tags/dl/">DL</a></li>
-      <li><a href="http://localhost:1313/tags/recommendations-system/">Recommendations System</a></li>
-      <li><a href="http://localhost:1313/tags/models/">Models</a></li>
+      <li><a href="https://abirarsalane.github.io/tags/ai/">AI</a></li>
+      <li><a href="https://abirarsalane.github.io/tags/iot/">IOT</a></li>
+      <li><a href="https://abirarsalane.github.io/tags/aws/">AWS</a></li>
+      <li><a href="https://abirarsalane.github.io/tags/ey/">EY</a></li>
+      <li><a href="https://abirarsalane.github.io/tags/innovation/">Innovation</a></li>
+      <li><a href="https://abirarsalane.github.io/tags/python/">Python</a></li>
+      <li><a href="https://abirarsalane.github.io/tags/challenge/">Challenge</a></li>
+      <li><a href="https://abirarsalane.github.io/tags/ml/">ML</a></li>
+      <li><a href="https://abirarsalane.github.io/tags/dl/">DL</a></li>
+      <li><a href="https://abirarsalane.github.io/tags/recommendations-system/">Recommendations System</a></li>
+      <li><a href="https://abirarsalane.github.io/tags/models/">Models</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="http://localhost:1313/">Abir Arsalane</a></span>
+    <span>&copy; 2024 <a href="https://abirarsalane.github.io/">Abir Arsalane</a></span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
